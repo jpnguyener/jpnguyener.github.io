@@ -1,0 +1,22 @@
+{
+  "name": "jpnguyener.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o resources/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpnguyener/jpnguyener.github.io.git"
+  },
+  "author": "JP Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jpnguyener/jpnguyener.github.io/issues"
+  },
+  "homepage": "https://github.com/jpnguyener/jpnguyener.github.io#readme",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
