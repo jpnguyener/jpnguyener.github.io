@@ -36,6 +36,17 @@
     height: 0vh;
     transform: translate3d(0, 0, 0);
   }
+
+  .about-info {
+    grid-template-areas:
+      "bioimage"
+      "bio"
+      "job1"
+      "job2"
+      "job3";
+
+      grid-template-columns: 1fr; 
+  }
 }
 
 @include mediaSmall {
