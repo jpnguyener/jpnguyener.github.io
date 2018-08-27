@@ -1,9 +1,13 @@
 @include mediaXLarge {
-
+  .work {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 @include mediaLarge {
-
+  .work {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @include mediaMedium {
@@ -15,7 +19,6 @@
       margin-bottom: 1rem;
     }
   }
-
   ul.menu-nav, div.menu-branding {
     float: none;
     width: 100%;
@@ -45,12 +48,19 @@
       "job2"
       "job3";
 
-      grid-template-columns: 1fr; 
+      grid-template-columns: 1fr;
+  }
+
+  .work {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @include mediaSmall {
   main#home h1 {
     margin-top: 10vh;
+  }
+  .work {
+    grid-template-columns: 1fr;
   }
 }
